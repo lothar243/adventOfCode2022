@@ -1,7 +1,7 @@
 from pprint import pprint
 
 allElves = []
-with open("input.txt", 'r') as infile:
+with open("input", 'r') as infile:
     currentElf = []
     for line in infile:
         if line.isspace():
