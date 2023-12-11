@@ -11,6 +11,28 @@
             "program": "${file}",
             "console": "integratedTerminal",
             "justMyCode": true
+        },
+        {
+            "name": "Python: input",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": [
+                "/home/jeff/Documents/adventOfCode2022/day12/input"
+            ]
+        },
+        {
+            "name": "Python: Current File - sample1",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": [
+                "/home/jeff/Documents/adventOfCode2022/day11/sample1"
+            ]
         }
     ]
 }
